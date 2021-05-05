@@ -1,0 +1,62 @@
+#            _  _  _                _   
+#  ___ __ _ (_)| || |__  ___  __ _ | |_ 
+# (_-</ _` || || || '_ \/ _ \/ _` ||  _|
+# /__/\__,_||_||_||_.__/\___/\__,_| \__|
+                                      
+# Basic Setup:
+name = "8ball"
+short_name = "cw_pycon_8ball"
+email = "cole@colewilson.xyz"
+author = "Cole Wilson"
+short_description = "8ball for the terminal"
+description = ""
+url = "https://github.com/"
+keywords = "8 ball 8ball magic terminal magical"
+license = "MIT"
+latest_build = "0.0.2"
+release-notes = "Initial Release"
+latest_release = "0.0.1"
+
+
+# Resource Setup:
+[resources]
+icns = "icon.icns"
+data_files = [ "*.txt",]
+modules = []
+file = "main.py"
+no_import = [ "os", "random",]
+
+
+# Plugin Commands:
+
+
+# Build Routines:
+[build.homebrew]
+
+[build.pyinstaller]
+type = 1
+mac = true
+windows = true
+unix = true
+bundle_id = "com.colewilson.cw_pycon_8ball"
+
+[build.actions]
+
+[build.pypi.commands]
+8ball = ""
+ball = ""
+8 = ""
+
+[build.pypi.entry_points]
+
+
+# Release Routines:
+
+
+# Other:
+[git]
+github = "cole-wilson/8ball"
+brew = "cole-wilson/homebrew-taps"
+
+
+# Thank you for using Sailboat!

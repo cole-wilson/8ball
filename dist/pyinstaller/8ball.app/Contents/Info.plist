@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>CFBundleDevelopmentRegion</key>
+ <string>en-US</string>
+
+ <!-- Executable Name:-->
+ <key>CFBundleExecutable</key>
+ <string>8ball</string>
+
+ <!-- Icon File-->
+ <key>CFBundleIconFile</key>
+ <string>icon.icns</string>
+
+ <!-- Bundle ID-->
+ <key>CFBundleIdentifier</key>
+ <string>com.colewilson.cw_pycon_8ball</string>
+
+ <!-- Versions-->
+ <key>CFBundleInfoDictionaryVersion</key>
+ <string>6.0</string>
+ <key>CFBundleVersion</key>
+ <string>0.0.2</string>
+ <key>CFBundleShortVersionString</key>
+ <string>0.0.2</string>
+
+ <!-- Names-->
+ <key>CFBundleName</key>
+ <string>cw_pycon_8ball</string>
+ <key>CFBundleDisplayName</key>
+ <string>8ball</string>
+
+ <!-- Other-->
+ <key>CFBundlePackageType</key>
+ <string>APPL</string>
+ <key>CFBundleSignature</key>
+ <string>????</string>
+ <key>NSPrincipalClass</key>
+ <string>NSApplication</string>
+</dict>
+</plist>
